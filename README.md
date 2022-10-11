@@ -23,3 +23,7 @@ After running postprocess_netchopoutput.sh we ran a custom python script (faster
 
 Each output file is a list of peptides that can be used for peptide-MHC binding predictions for HLAthena, MHCflurry, and MHCnuggets.
 Random.pep is 1 million peptides used for analysis which did not undergo any filtering.
+
+
+For peptide features analysis we sequence feature tools using:
+``` python3 sequence_featurization_tools.py PEPFILE.pep OUTPUT.csv ```

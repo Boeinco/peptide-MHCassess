@@ -10,7 +10,7 @@ From FASTA file:
 
 ``` ./preprocess_fasta_for_netchop.sh YOURFASTA.fasta OUTPUTFASTA.fasta``` 
 
-Then we run netChop
+This results in a deliminted fasta file for netchop.
 
 After netchop finishes, we postprocess the netchop output "netchop_out.txt" with: 
 
@@ -21,4 +21,5 @@ After running postprocess_netchopoutput.sh we ran a custom python script (faster
 ``` sed '/|/d' output.pep > output_filt.pep ``` 
 
 
+Each output file is a list of peptides that can be used for peptide-MHC binding predictions for HLAthena, MHCflurry, and MHCnuggets.
 Random.pep is 1 million peptides used for analysis which did not undergo any filtering.

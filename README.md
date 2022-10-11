@@ -10,9 +10,9 @@ From FASTA file:
 
 ``` ./preprocess_fasta_for_netchop.sh YOURFASTA.fasta OUTPUTFASTA.fasta``` 
 
-Then we run netChop using 
+Then we run netChop
 
-
+After netchop finishes, we postprocess the netchop output "netchop_out.txt" with: 
 
 ``` ./postprocess_netchopoutput.sh ``` 
 

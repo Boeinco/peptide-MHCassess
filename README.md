@@ -12,6 +12,8 @@ From FASTA file:
 
 This results in a deliminted fasta file for netchop.
 
+Run netchop with default settings.
+
 After netchop finishes, we postprocess the netchop output "netchop_out.txt" with: 
 
 ``` ./postprocess_netchopoutput.sh ``` 

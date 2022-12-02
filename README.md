@@ -29,3 +29,5 @@ Random.pep is 1 million peptides used for analysis which did not undergo any fil
 
 For peptide features analysis we sequence feature tools using:
 ``` python3 sequence_featurization_tools.py PEPFILE.pep OUTPUT.csv ```
+
+Note that for producing figures, PCA and UMAP approximations are within 0.9 correlation so can be replaced if computational time for UMAP is too high.

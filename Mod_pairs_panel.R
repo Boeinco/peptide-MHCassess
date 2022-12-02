@@ -31,7 +31,6 @@ HLAcol <- ifelse(grepl("A", merge_human_viral$Allele), '#1B9E77', ifelse(grepl("
 library(ggplot2)
 library(psych)
 
-setwd("/Users/nguyenau/Documents/Coding/PeptideAlleleBinding/Results/netmhcpan_full")
 merge_alleles <- read.csv("merge_alleles_random_0.5.csv")
 merge_alleles <- read.csv("merge_alleles_random_0.6.csv")
 merge_alleles <- read.csv("merge_alleles_random_0.7.csv")
